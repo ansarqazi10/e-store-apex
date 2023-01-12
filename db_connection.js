@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB_CONNECTION = process.env.DB_CONNECTION_STRING;
+const DB_CONNECTION = process.env.DB_CONNECTION_STRING_X;
 
 mongoose.set('strictQuery', false);
 mongoose.connect(DB_CONNECTION, {
